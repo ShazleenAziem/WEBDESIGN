@@ -40,3 +40,24 @@ div.sticky
   background-color: aqua;
   border:2px solid;
 }
+
+body {
+  background-color: lightblue;
+ }
+ @media screen and (min-width: 400px) {
+  body {
+  background-color: lightgreen;
+  }
+ }
+ @media screen and (min-width: 800px) {
+  body {
+  background-color: lavender;
+  }
+ }
+
+ p {color : red;}
+ p.ex1 {display: none; }
+ p.ex2 {display: inline; }
+ p.ex3 {display: block; }
+ p.ex4 {display: inline-block ; }
+
